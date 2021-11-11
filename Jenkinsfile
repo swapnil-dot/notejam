@@ -1,6 +1,6 @@
 node{
     stage("Git cloning from BitBucket"){
-        git 'https://swapnil9825@bitbucket.org/swapnil9825/notejam-mysql.git'
+        git 'https://swapnil9825@bitbucket.org/swapnil9825/webiste.git'
         
     }
     stage("SonarQube analysis"){
